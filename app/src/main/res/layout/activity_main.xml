@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distances"
+        android:textAlignment="center"
+        android:textSize="16pt"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"/>
+
+    <!-- Location 1 Section -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <!-- Location 1 TextView -->
+        <TextView
+            android:id="@+id/LocOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location 1"
+            android:textSize="10pt"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"/>
+
+        <!-- Location 1 Distance TextView -->
+        <TextView
+            android:id="@+id/LocOneDist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00 km"
+            android:textSize="10pt"
+            android:layout_alignBaseline="@id/LocOne"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"/>
+
+        <!-- Location 1 Edit Name Button -->
+        <Button
+            android:id="@+id/LocOneNameEditor"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@id/LocOne"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:padding="3pt"
+            android:text="Edit Name"
+            android:textSize="6pt" />
+
+        <!-- Location 1 Edit Coordinates Button -->
+        <Button
+            android:id="@+id/LocOneCoordinateEditor"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@id/LocOne"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:padding="3pt"
+            android:text="Edit Coordinates"
+            android:textSize="6pt" />
+
+    </RelativeLayout>
+
+    <!-- Location 2 Section -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <!-- Location 2 TextView -->
+        <TextView
+            android:id="@+id/LocTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location 2"
+            android:textSize="10pt"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"/>
+
+        <!-- Location 2 Distance TextView -->
+        <TextView
+            android:id="@+id/LocTwoDist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00 km"
+            android:textSize="10pt"
+            android:layout_alignBaseline="@id/LocTwo"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"/>
+
+        <!-- Location 2 Edit Name Button -->
+        <Button
+            android:id="@+id/LocTwoNameEditor"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@id/LocTwo"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:padding="3pt"
+            android:text="Edit Name"
+            android:textSize="6pt" />
+
+        <!-- Location 2 Edit Coordinates Button -->
+        <Button
+            android:id="@+id/LocTwoCoordinateEditor"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@id/LocTwo"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:padding="3pt"
+            android:text="Edit Coordinates"
+            android:textSize="6pt" />
+
+    </RelativeLayout>
+
+    <!-- Location 3 Section -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <!-- Location 3 TextView -->
+        <TextView
+            android:id="@+id/LocThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location 3"
+            android:textSize="10pt"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"/>
+
+        <!-- Location 3 Distance TextView -->
+        <TextView
+            android:id="@+id/LocThreeDist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00 km"
+            android:textSize="10pt"
+            android:layout_alignBaseline="@id/LocThree"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"/>
+
+        <!-- Location 3 Edit Name Button -->
+        <Button
+            android:id="@+id/LocThreeNameEditor"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@id/LocThree"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:padding="3pt"
+            android:text="Edit Name"
+            android:textSize="6pt" />
+
+        <!-- Location 3 Edit Coordinates Button -->
+        <Button
+            android:id="@+id/LocThreeCoordinateEditor"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@id/LocThree"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:padding="3pt"
+            android:text="Edit Coordinates"
+            android:textSize="6pt" />
+
+    </RelativeLayout>
+
+    <!-- Location 4 Section -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <!-- Location 4 TextView -->
+        <TextView
+            android:id="@+id/LocFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location 4"
+            android:textSize="10pt"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"/>
+
+        <!-- Location 4 Distance TextView -->
+        <TextView
+            android:id="@+id/LocFourDist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00 km"
+            android:textSize="10pt"
+            android:layout_alignBaseline="@id/LocFour"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"/>
+
+        <!-- Location 4 Edit Name Button -->
+        <Button
+            android:id="@+id/LocFourNameEditor"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@id/LocFour"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:padding="3pt"
+            android:text="Edit Name"
+            android:textSize="6pt" />
+
+        <!-- Location 4 Edit Coordinates Button -->
+        <Button
+            android:id="@+id/LocFourCoordinateEditor"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@id/LocFour"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:padding="3pt"
+            android:text="Edit Coordinates"
+            android:textSize="6pt" />
+
+    </RelativeLayout>
+
+    <!-- Location 5 Section -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <!-- Location 5 TextView -->
+        <TextView
+            android:id="@+id/LocFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location 5"
+            android:textSize="10pt"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"/>
+
+        <!-- Location 5 Distance TextView -->
+        <TextView
+            android:id="@+id/LocFiveDist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00 km"
+            android:textSize="10pt"
+            android:layout_alignBaseline="@id/LocFive"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"/>
+
+        <!-- Location 5 Edit Name Button -->
+        <Button
+            android:id="@+id/LocFiveNameEditor"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@id/LocFive"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:padding="3pt"
+            android:text="Edit Name"
+            android:textSize="6pt" />
+
+        <!-- Location 5 Edit Coordinates Button -->
+        <Button
+            android:id="@+id/LocFiveCoordinateEditor"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@id/LocFive"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:padding="3pt"
+            android:text="Edit Coordinates"
+            android:textSize="6pt" />
+
+    </RelativeLayout>
+
+    <!-- Calculate Distances Button -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Distances"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="10pt"
+        android:padding="5pt"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+    <!-- Reset Name Button -->
+    <Button
+        android:id="@+id/NameReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Name"
+        android:textSize="8pt"
+        android:padding="5pt"
+        android:layout_gravity="left"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"/>
+
+    <!-- Reset Coordinates Button -->
+    <Button
+        android:id="@+id/CoordinateReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Coordinates"
+        android:textSize="8pt"
+        android:padding="5pt"
+        android:layout_gravity="right"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

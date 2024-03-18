@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "993851201924",
+    "project_id": "driver-location-app",
+    "storage_bucket": "driver-location-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993851201924:android:279e31c263471e53f665d1",
+        "android_client_info": {
+          "package_name": "com.velvetthunder.driverlocation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWRm33bXxEJ5exkFInTMOO2MIKYiq8czU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
